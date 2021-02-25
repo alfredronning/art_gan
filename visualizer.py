@@ -63,9 +63,6 @@ class Visualizer:
         plt.imshow(img_array[0, :, :, 0])
         plt.show()
 
-    def write_slogan(self):
-        print("Tkinter is easy to use!")
-
 
 if __name__ == "__main__":
     root = tk.Tk()
